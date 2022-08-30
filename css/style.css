@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;400;800&family=Oswald:wght@200;300;700&family=Roboto+Condensed:wght@300;700&display=swap');
+
+
+body{
+    font-family: Mukta;
+}
+
+/* ----------------------
+Logo
+--------------------------*/
+.convention-logo-text{
+    color: #3E3E3E;
+    font-weight: 900;
+
+}
+
+
+
+
+
+/* ----------------------
+Slider button 
+--------------------------*/
+
+.slider-button{
+    background-color: #fff;
+    font-family: Mukta;
+    font-weight: 900;
+    color: #3F87F5;
+
+}
+
+
+/* slider text heading */
+.slider-text-heading{
+    font-weight: 400;
+
+}
+
+/* slider paragraph */
+
+.slider-paragraph{
+    font-family: oswald;
+    font-weight: 200;
+    font-size: 1rem;
+    letter-spacing: 0.1em;
+}
+
+/* Next Icon */
+
+.net-icon-bold{
+    font-weight: 900;
+}
+
+
+
+                /* ----------------------
+                1st section
+                --------------------------*/
+
+.toast-borade-start{
+    border-left:.2rem solid #3F87F5;
+    font-size: 1.5rem;
+}
+
+#toaster-right{
+    
+}
+
+
+.heading-to-love-heading{
+    color: #3E3E3E;
+    font-weight: 400;
+
+}
+
+.Explore-Happy-Moments-button{
+    background-color:#3F87F5 ;
+    color: #FFFFFF;
+    padding: auto;
+
+}
+
+.Explore-Happy-Moments-button:hover{
+    background-color:#3E3E3E ;
+    color: #FFFFFF;
+}
+
+/* ----------------------
+Choose Paln
+--------------------------*/
+.rounded-redious-of-card{
+    border-radius: .5rem;
+}
+.Price{
+    font-size: 2rem;
+    color: #231d4f;
+    font-weight: 900;
+    
+}
+
+.Package-name{
+    font-size: 1.2rem;
+    color: #231d4f;
+    font-weight: 600;   
+}
+
+.package-inner-text{
+    color: #939393;
+    font-size: .8rem;
+    line-height: 1.5rem;
+
+}
+
+.package-item{
+    padding: 0;
+}
+
+.package-item li{
+    list-style: none;
+    margin-left: 0;
+    margin-right: 1rem;
+}
+
+.package-item-tick{
+    color: #939393;
+}
+
+
+.Choose-Plan-button{
+    background-color: #fdf3f9;
+    color:#3F87F5 ;
+    padding: auto;
+}
+
+#best-package{
+    background-color: #3F87F5;
+    margin-top: -2.5rem;
+    filter: drop-shadow(0rem 2rem 1.2rem #85b6ff);
+    border-radius:1.5rem;
+    border:none;
+}
+
+#best-package h3, #best-package h6, 
+#best-package p, #best-package ul>li, 
+#best-package i{
+    color: #FFFFFF;
+}
+
+#best-package .Choose-Plan-button{
+    background-color: #FFFFFF;
+}
+
+.tooltip-poppular{
+    position:relative;
+    margin-top: -3rem;
+    margin-left:10rem;
+}
+
+
+
+
+
+.FAQ-Border{
+    border-color:#D5E5FB;
+}
+
+
+
+
+.padma-con-footer-bg-color{
+    background-color: #0B0D17;
+}

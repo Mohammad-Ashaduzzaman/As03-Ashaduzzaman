@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Padma Convention Center</title>
+    <link rel="icon" href="icons/favlogo.png" sizes="16*16 32*32" type="image/png">
+
+    <!-- bootstarp css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/34db53c153.js" crossorigin="anonymous"></script>
+
+    <!-- main style -->
+    <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+<body>
+
+    <!--  ----------------------
+        header 
+    ------------------------- -->
+    <header class="pb-lg-5 pb-md-3 pb-sm-2 ">
+
+        <!--  ----------------------
+                navbar
+        ------------------------- -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container ">
+                <a class="navbar-brand" href="#">
+                    <h3 class="convention-logo-text ">
+                        Padma Convention Center
+                    </h3>
+                </a>
+              
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="">
+                        <img src="icons/menu-2 1.svg" alt="">
+                    </span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Subscribe</a>
+                        </li>
+                        
+                    </ul>
+                    
+                </div>
+            </div>
+        </nav>    
+
+
+        
+
+
+        <!--  ----------------------
+                carasol banner
+        ------------------------- -->
+        
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">    
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/banner1.png" class="d-block w-100 rounded-bottom" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1 class="slider-text-heading">First slide label</h1>
+                        <p class="slider-paragraph font-monospace">Some representative placeholder content for the first slide.</p>
+                        <a class="btn slider-button mb-3" href="https://www.facebook.com/md.ashadzzamanchondon" role="button">Contact Us</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/banner2.jpg" class="d-block w-100 rounded-bottom" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1 class="slider-text-heading">Second slide label</h1>
+                        <p class="slider-paragraph font-monospace">Some representative placeholder content for the second slide.</p>
+                        <a class="btn slider-button mb-3" href="https://www.facebook.com/md.ashadzzamanchondon" role="button">Contact Us</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/banner3.jpg" class="d-block w-100 rounded-bottom" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1 class="slider-text-heading">Third slide label</h1>
+                        <p class="slider-paragraph font-monospace">Some representative placeholder content for the third slide.</p>
+                        <a class="btn slider-button mb-3" href="https://www.facebook.com/md.ashadzzamanchondon" role="button">Contact Us</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/banner4.jpg" class="d-block w-100 rounded-bottom" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1 class="slider-text-heading">Third slide label</h1>
+                        <p class="slider-paragraph font-monospace">Some representative placeholder content for the third slide.</p>
+                        <a class="btn slider-button mb-3" href="https://www.facebook.com/md.ashadzzamanchondon" role="button">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev net-icon-bold" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next net-icon-bold" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+
+    </header>
+
+    <!--  ----------------------
+        start main 
+    ------------------------- -->
+    <main class="container ">
+
+        <!-- -----------------
+             toasts 
+        ------------------------ -->
+        <section class="d-flex justify-content-end" id="toaster-right">
+            <div class="toast toast-borade-start " role="alert" aria-live="assertive" aria-atomic="true" id="Mytoast">
+                <div class="toast-header">
+                    <i class="fa-solid fa-gift mx-4 my-2 text-primary"></i>
+                    <strong class="me-auto">20% off on Marh</strong>
+                    <button type="button" class="btn-close small" data-bs-dismiss="toast" aria-label="Close"></button>
+                </div>
+            </div>
+                    
+        </section>
+
+        <!--  ----------------------
+            Love Explore section
+        ------------------------- -->
+
+        <section class="row d-flex flex-column-reverse flex-lg-row align-items-center pb-lg-4">
+            <div class="col-lg-5 col-md-12 col-sm-12 ">
+                <img class="img-fluid rounded-3" src="images/wedding1.jpeg" alt="">
+            </div>
+            <div class="d-lg-block d-flex flex-column col-lg-7 col-md-12 col-sm-12">
+                <div class=" my-2">
+                    <h1 class="text-capitalize " id="">
+                        To love, laughter and happily ever after
+                    </h1>
+                    <p class=" " id="">
+                        The small details always make a grand impression during an event. 
+                        And for any grand event, a befitting venue has to be hired. 
+                        Here at Amrokanon, we are committed to little details and our 
+                        dedicated event manager will ensure your event shines with bounty 
+                        of beautiful moments. Let us transform our banquet halls into a themed 
+                        wedding night for you. 
+                    </p>
+                </div>
+                
+                <div class=" m-auto">
+                    <a class="btn my-2 my-lg-0 rounded-0 Explore-Happy-Moments-button" href="#" role="button">
+                        Explore Happy Moments
+                        <i class="fa-solid fa-arrow-right-long"></i>
+                    </a>
+                </div>
+                
+            </div>
+        </section>
+
+        <!--  ----------------------
+                Our Package
+        ------------------------- -->
+        <section class="mt-lg-4 m-3 pt-lg-5" id="">
+            <h1 class="text-center  pb-lg-5 " id="">Choose Your Plan</h1>
+            <div class="pt-lg-4 d-lg-flex" id="">
+                
+                <!-- package 01 -->
+                <div class="card mb-3 border-white col-lg-3 rounded-redious-of-card m-sm-1 m-md-1" id=" ">
+                    <div class="card-body ">
+                      <h3 class="card-title Price">$500</h3>
+                      <h6 class="Package-name ">Light card title</h6>
+                      <p class="card-text package-inner-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <ul class="package-item package-inner-text">
+                            <li><i class="fa-solid fa-circle-check package-item-tick"></i> <span class="ms-2"> limited space access </span> </li>
+                            <li><i class="fa-solid fa-circle-check package-item-tick"></i><span class="ms-2">security facility</span></li>
+                            <li><i class="fa-solid fa-circle-check package-item-tick"></i><span class="ms-2">event support</span></li>
+                            <li><i class="fa-solid fa-circle-check package-item-tick"></i><span class="ms-2">decoration design</span></li>
+                            <li><i class="fa-solid fa-circle-check package-item-tick"></i><span class="ms-2">per day bill</span></li>
+                            <li><i class="fa-solid fa-circle-check package-item-tick"></i><span class="ms-2">multiple payment system</span></li>
+                        </ul>
+                        <a class="btn rounded-pill d-flex justify-content-center Choose-Plan-button" href="#" role="button">
+                            Choose Plan 
+                        </a>
+                    </div>
+                </div>
+                <!-- package 02 -->
+                <div class="card mb-3 border-white col-lg-3 rounded-redious-of-card m-sm-1 m-md-1" id=" ">
+                    <div class="card-body ">
+                      <h3 class="card-title Price">$1000</h3>
+                      <h6 class="Package-name ">Light card title</h6>
+                      <p class="card-text package-inner-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <ul class="package-item package-inner-text">
+                            <li><i class="fa-solid fa-circle-check package-item-tick"></i> <span class="ms-2"> limited space access </span> </li>
+                            <li><i class="fa-solid fa-circle-check package-item-tick"></i><span class="ms-2">security facility</span></li>
+                            <li><i class="fa-solid fa-circle-check package-item-tick"></i><span class="ms-2">event support</span></li>
+                            <li><i class="fa-solid fa-circle-check package-item-tick"></i><span class="ms-2">decoration design</span></li>
+                            <li><i class="fa-solid fa-circle-check package-item-tick"></i><span class="ms-2">per day bill</span></li>
+                            <li><i class="fa-solid fa-circle-check package-item-tick"></i><span class="ms-2">multiple payment system</span></li>
+                        </ul>
+                        <a class="btn rounded-pill d-flex justify-content-center Choose-Plan-button" href="#" role="button">
+                            Choose Plan 
+                        </a>
+                    </div>
+                </div>
+                <!-- package 03 -->
+                <div class="card mb-3 border-white col-lg-3 rounded-redious-of-card m-sm-1 m-md-1" id="best-package">
+                    <div class="card-body ">
+                        <button type="button" class="btn btn-danger rounded-pill tooltip-poppular" data-bs-toggle="tooltip" data-bs-placement="top" title="Tooltip on top">
+                            Popular
+                        </button>
+                        
+                        <h3 class="card-title Price">$2500</h3>
+                        <h6 class="Package-name ">Light card title</h6>
+                        <p class="card-text package-inner-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <ul class="package-item package-inner-text">
+                            <li><i class="fa-solid fa-circle-check package-item-tick"></i> <span class="ms-2"> limited space access </span> </li>
+                            <li><i class="fa-solid fa-circle-check package-item-tick"></i><span class="ms-2">security facility</span></li>
+                            <li><i class="fa-solid fa-circle-check package-item-tick"></i><span class="ms-2">event support</span></li>
+                            <li><i class="fa-solid fa-circle-check package-item-tick"></i><span class="ms-2">decoration design</span></li>
+                            <li><i class="fa-solid fa-circle-check package-item-tick"></i><span class="ms-2">per day bill</span></li>
+                            <li><i class="fa-solid fa-circle-check package-item-tick"></i><span class="ms-2">multiple payment system</span></li>
+                        </ul>
+                        <a class="btn rounded-pill d-flex justify-content-center Choose-Plan-button" href="#" role="button">
+                            Choose Plan 
+                        </a>
+                    </div>
+                </div>
+                <!-- package 04 -->
+                <div class="card mb-3 border-white col-lg-3 rounded-redious-of-card m-sm-1 m-md-1" id=" ">
+                    <div class="card-body ">
+                      <h3 class="card-title Price">$5000</h3>
+                      <h6 class="Package-name ">Light card title</h6>
+                      <p class="card-text package-inner-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <ul class="package-item package-inner-text">
+                            <li><i class="fa-solid fa-circle-check package-item-tick"></i> <span class="ms-2"> limited space access </span> </li>
+                            <li><i class="fa-solid fa-circle-check package-item-tick"></i><span class="ms-2">security facility</span></li>
+                            <li><i class="fa-solid fa-circle-check package-item-tick"></i><span class="ms-2">event support</span></li>
+                            <li><i class="fa-solid fa-circle-check package-item-tick"></i><span class="ms-2">decoration design</span></li>
+                            <li><i class="fa-solid fa-circle-check package-item-tick"></i><span class="ms-2">per day bill</span></li>
+                            <li><i class="fa-solid fa-circle-check package-item-tick"></i><span class="ms-2">multiple payment system</span></li>
+                        </ul>
+                        <a class="btn rounded-pill d-flex justify-content-center Choose-Plan-button" href="#" role="button">
+                            Choose Plan 
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+
+        <!--  ----------------------
+                Client Review
+        ------------------------- -->
+
+        <section class="py-lg-5 my-3">
+            <h1 class="py-5 text-center">
+                Client Review
+            </h1>
+            <div class="d-flex">
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <!-- 1ST CLIENT -->
+                    <div class="col text-center   ">
+                        <div class="card border-white shadow rounded-3 h-100">
+                            <div class="card-body">
+                                <p class="card-text">
+                                    Popularly known as Nakshatra Garden. This place provides a one spot destination for marriage functions as it is attached to a hotel and lot of space is available for performing marriage functions. A large lawn and a huge stage is available for marriage receptions. Nice place. 
+                                </p>
+                            </div>
+                            <div class="px-5">
+                                <img src="images/client1.png" class="card-img" alt="...">
+                            </div>
+                            <h4 class="card-title py-2 ">
+                                Salman Mohammad
+                            </h4>
+                            <p class="">
+                                Get Married in 2020
+                            </p> 
+                        </div>
+                    </div>
+                    <!-- 2ND CLIENT -->
+                    <div class="col text-center   ">
+                        <div class="card border-white shadow rounded-3 h-100">
+                            <div class="card-body">
+                                <p class="card-text">
+                                    One of the best convention center in Indore. Situated at one of the best locations & easy accessible. Best services. Number of options to select as per your requirements. Also popular as wedding location.
+                                </p>
+                            </div>
+                            <div class="px-5">
+                                <img src="images/client2.png" class="card-img" alt="...">
+                            </div>
+                            <h4 class="card-title py-2 ">
+                                Adir M. Zabbar
+                            </h4>
+                            <p class="">
+                                Get Married in 2022
+                            </p> 
+                        </div>
+                    </div>
+                    <!-- 3RD CLIENT -->
+                    <div class="col text-center   ">
+                        <div class="card border-white shadow rounded-3 h-100">
+                            <div class="card-body">
+                                <p class="card-text">
+                                    It has a bug garden for marriages and big AC halls for conventions, marriages.
+                                    Good parking space.
+                                    Near to the Indore Airport.
+                                    Near n clean area.
+                                    One of the best place of indore for big functions.                                          
+                                </p>
+                            </div>
+                            <div class="px-5">
+                                <img src="images/client3.png" class="card-img" alt="...">
+                            </div>
+                            <h4 class="card-title py-2 ">
+                                Mohammad Ahmed
+                            </h4>
+                            <p class="">
+                                Get Married in 2020
+                            </p> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- just commnet -->
+
+
+        <!--  ----------------------
+        Frequently Ask Question (FAQ)
+        ------------------------- -->
+        <section class="mb-5">
+            <h1 class="my-5 text-center ">
+                Some USP About Us
+            </h1>
+            <div class="d-flex row align-items-center flex-lg-row flex-column-reverse">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="accordion" id="accordionPanelsStayOpenExample">
+                            <div class="accordion-item my-2 FAQ-Border shadow-sm">
+                                <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                                    Capacity
+                                    </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                                    <div class="accordion-body text-start font-monospace">
+                                        You’ve booked a conference venue with accommodation. 
+                                        There’s a conference hall with capacity for 1000; breakout meeting 
+                                        rooms for 20, 50, 250. It’s in a convenient central location, and the 
+                                        event management team are professional and enthusiastic.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item my-2 FAQ-Border shadow-sm">
+                                <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                                        Reputation
+                                    </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                                    <div class="accordion-body text-start font-monospace">
+                                        Many major conferences are repeat events: annual, biannual, every four years.
+                                        They carry with them a prestige and standing all their own – and therefore one 
+                                        you benefit from by default. Some delegates will always book, year after year.
+                                        However, that doesn’t mean you can rest on your laurels. Complacency is never a 
+                                        good look. As a conference organiser, you don’t only inherit the high status and name 
+                                        recognition of a regular, important event. You also inherit all the potential negatives 
+                                        of that reputation – not to mention the challenge of improving on past events.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item my-2 FAQ-Border shadow-sm">
+                                <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                                        Location
+                                    </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                                    <div class="accordion-body text-start font-monospace">
+                                        Destination makes a big difference to individuals.Travel to a new city can be 
+                                        a huge draw to your potential delegate. What’s on offer? Pull out cultural highlights, 
+                                        like historic buildings, museums and performances they can enjoy while they’re in the 
+                                        area. Share the unique authentic qualities of the place, like local food experiences. 
+                                        Remember international audiences will be keen to experience the UK’s rich history: 
+                                        show them how easy that will be.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item my-2 FAQ-Border shadow-sm">
+                                <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
+                                        Speakers
+                                    </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour">
+                                    <div class="accordion-body text-start font-monospace">
+                                        Just as your conference may benefit from its reputation, your choice of presenters and speakers will 
+                                        bring their own prestige. High-profile guests can be the sole reason a delegate chooses to come, 
+                                        especially if there’ll be the opportunity for some direct interaction. If you’ve pulled in a roster 
+                                        of big names, find out if they’re happy to join tables at dinner, or attend an informal Q&A outside 
+                                        panel or presentation. If so, make sure that’s front and centre in your pre-registration materials.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6  col-md-12">
+                        <img src="images/Dance.jpg" class="img-fluid rounded-3" alt="">
+                    </div>
+                
+            </div>
+        </section>
+
+
+    </main>
+
+
+    <!--  ----------------------
+        fotter
+    ------------------------- -->
+    <footer class=" py-5 padma-con-footer-bg-color ">
+        <div class="container d-flex justify-content-between text-white align-items-center flex-column-reverse flex-lg-row">
+            <div class="col-lg-6 col-md-6 col-sm-6 text-center text-lg-start my-3">
+                <h2 class="small ">
+                    © 2022 Padma Convention Center. All rights reserved
+                </h2>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6 ">
+                <p class=" ">
+                    Get the App
+                </p>
+                <a href="https://apps.apple.com/us/app/breathe/id1459455352" class="">
+                    <img src="images/apple store.png" alt="" class="img-fluid my-1 rounded-3 border-white">
+                </a>
+                <br>
+                <a href="https://play.google.com/store/apps/details?id=com.getmimo&hl=en&gl=US" class="">
+                    <img src="images/google play.png" alt="" class="img-fluid my-1 rounded-3 border-white">
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- bootstarp js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    
+    <!-- toast script -->
+    <script>
+        window.onload = (event) => {
+        let myAlert = document.querySelector('.toast');
+        let bsAlert = new bootstrap.Toast(myAlert);
+        bsAlert.show();
+        }
+
+    </script>
+
+
+
+
+
+</body>
+</html>
